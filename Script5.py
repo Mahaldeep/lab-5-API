@@ -8,7 +8,7 @@ def main():
     if name_list:
         title, body_text = get_paste_content()
         paste_url = post_new_paste (title, body_text)
-        print(f'URL of jokes paste: {paste_url}')
+        print(f'URL of  poki names paste: {paste_url}')
 
 def get_search_term():
     num_params = len(sys.argv) - 1
